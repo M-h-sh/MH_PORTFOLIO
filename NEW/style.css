@@ -323,12 +323,7 @@ section .title::after{
     background: crimson;
 }
 
-.skills-content .right .C::before{
-    width: 50%;
-}
-.skills-content .right .C::before{
-    width: 55%;
-}
+
 
 .skills-content .right .Java::before{
     width: 50%;
