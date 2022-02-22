@@ -6,7 +6,7 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        
+
         // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
@@ -33,14 +33,26 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
- 
 
-    var typed = new Typed(".typing-2", {
-        strings: ["INFORMATION TECHNOLOGY STUDENT","AT TSHWANE UNIVERSITY OF TECHNOLOGY"],
+    var typed = new Typed(".typing-1", {
+        strings: ["Here the Summarised video","for the Game","CubeCollider","You may Download it on your","laptop using the provided link below"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
+    var typed = new Typed(".typing-2", {
+        strings: ["MY NAME IS MTHOKOZISI HECTOR HLATSHWAYO","STUDIED INFORMATION TECHNOLOGY STUDENT","AT TSHWANE UNIVERSITY OF TECHNOLOGY"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing-3", {
+        strings: ["Animated logo designs"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
 
     // owl carousel script
     $('.carousel').owlCarousel({
